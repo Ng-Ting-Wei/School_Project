@@ -6,7 +6,9 @@ public class PlayerMovement : MonoBehaviour
 {
     private float panSpeed = 35f;
     private float panborderThicken = 10f;
-    private float cameraRotation = 35f;
+    private float scrollSpeed = 20f;
+    private float minY = 20f;
+    private float maxY = 80f;
     public Vector2 panLimit;
 
     // Start is called before the first frame update
@@ -24,6 +26,14 @@ public class PlayerMovement : MonoBehaviour
     public void playerMovement()
     {
         //Movement
+        if (Input.GetKey(KeyCode.LeftShift))
+        {
+            panSpeed = 75f;
+        }
+        if (Input.GetKeyUp(KeyCode.LeftShift))
+        {
+            panSpeed = 35f;
+        }
         Vector3 pos = transform.position;
         if (Input.GetKey("w") || Input.mousePosition.y >= Screen.height - panborderThicken)
         {
@@ -41,19 +51,13 @@ public class PlayerMovement : MonoBehaviour
         {
             pos.x -= panSpeed * Time.deltaTime;
         }
+        //Zoom
+        float scroll = Input.GetAxis("Mouse ScrollWheel");
+        pos.y -= scroll * scrollSpeed * 50f * Time.deltaTime;
+        //Restrictions
         pos.x = Mathf.Clamp(pos.x, -panLimit.x, panLimit.x);
+        pos.y = Mathf.Clamp(pos.y, minY, maxY);
         pos.z = Mathf.Clamp(pos.z, -panLimit.y, panLimit.y);
         transform.position = pos;
-        //Rotation 
-        Vector3 rotation = transform.eulerAngles;
-        if (Input.GetKey(KeyCode.Q))
-        {
-            rotation.y += cameraRotation * Time.deltaTime;
-        }
-        if (Input.GetKey(KeyCode.E))
-        {
-            rotation.y -= cameraRotation * Time.deltaTime;
-        }
-        transform.eulerAngles = rotation;
     }
 }
