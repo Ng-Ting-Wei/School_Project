@@ -59,5 +59,7 @@ public class PlayerMovement : MonoBehaviour
         pos.y = Mathf.Clamp(pos.y, minY, maxY);
         pos.z = Mathf.Clamp(pos.z, -panLimit.y, panLimit.y);
         transform.position = pos;
+        //Pause menu
+
     }
 }

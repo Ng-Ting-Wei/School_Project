@@ -20,14 +20,7 @@ public class PlayerBase : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Alpha1))
-        {
-            takeDamage(20);
-        }
-        if (Input.GetKeyDown(KeyCode.Alpha2))
-        {
-            healDamage(20);
-        }
+
     }
 
     public void takeDamage(int damage)

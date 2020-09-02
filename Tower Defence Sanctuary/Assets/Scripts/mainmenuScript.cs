@@ -6,9 +6,6 @@ using UnityEngine.SceneManagement;
 
 public class mainmenuScript : MonoBehaviour
 {
-    public Animator transition;
-    public float transitionTime = 1f;
-
     public GameObject instructionmenu;
     public GameObject levelMenu;
 
@@ -30,26 +27,19 @@ public class mainmenuScript : MonoBehaviour
         
     }
 
-    IEnumerator Loadlevel(string levelname)
-    {
-        transition.SetTrigger("Start");
-        yield return new WaitForSeconds(transitionTime);
-        SceneManager.LoadScene(levelname);
-    }
-
     public void startGame()
     {
-        StartCoroutine(Loadlevel("Level_1"));
+        SceneManager.LoadScene("Level_1");
     }
 
     public void mainmenu()
     {
-        StartCoroutine(Loadlevel("MainMenu"));
+        SceneManager.LoadScene("MainMenu");
     }
 
     public void loadLevel(string levelName)
     {
-        StartCoroutine(Loadlevel(levelName));
+        SceneManager.LoadScene(levelName);
     }
 
     public void onLevelmenu()
