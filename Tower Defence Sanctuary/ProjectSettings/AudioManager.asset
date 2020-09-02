@@ -4,9 +4,13 @@
 AudioManager:
   m_ObjectHideFlags: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
   serializedVersion: 2
 =======
 >>>>>>> Branch_1_Ngtingwei
+=======
+  serializedVersion: 2
+>>>>>>> origin/Branch_2_Cheongyanseng
   m_Volume: 1
   Rolloff Scale: 1
   Doppler Factor: 1
@@ -20,6 +24,10 @@ AudioManager:
   m_DisableAudio: 0
   m_VirtualizeEffects: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_RequestedDSPBufferSize: 0
 =======
 >>>>>>> Branch_1_Ngtingwei
+=======
+  m_RequestedDSPBufferSize: 0
+>>>>>>> origin/Branch_2_Cheongyanseng

@@ -1,5 +1,6 @@
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 === Mon Aug 17 15:50:55 2020
 
 Packages were changed.
@@ -10,6 +11,12 @@ Update Mode: resetToDefaultDependencies
 Packages were changed.
 Update Mode: mergeDefaultDependencies
 >>>>>>> Branch_1_Ngtingwei
+=======
+=== Thu Aug 20 16:30:09 2020
+
+Packages were changed.
+Update Mode: resetToDefaultDependencies
+>>>>>>> origin/Branch_2_Cheongyanseng
 
 The following packages were added:
   com.unity.analytics@3.2.2

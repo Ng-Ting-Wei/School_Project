@@ -20,10 +20,14 @@ UnityConnectSettings:
     m_TestMode: 0
   UnityAnalyticsSettings:
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Enabled: 0
 =======
     m_Enabled: 1
 >>>>>>> Branch_1_Ngtingwei
+=======
+    m_Enabled: 0
+>>>>>>> origin/Branch_2_Cheongyanseng
     m_TestMode: 0
     m_InitializeOnStartup: 1
   UnityAdsSettings:

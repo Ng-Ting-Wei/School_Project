@@ -5,6 +5,7 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Scenes: []
 =======
   m_Scenes:
@@ -21,4 +22,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Level_3.unity
     guid: 8064d92bb02ce9b4f892449fc7bfeba6
 >>>>>>> Branch_1_Ngtingwei
+=======
+  m_Scenes: []
+>>>>>>> origin/Branch_2_Cheongyanseng
   m_configObjects: {}

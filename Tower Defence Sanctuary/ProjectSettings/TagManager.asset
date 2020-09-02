@@ -3,7 +3,12 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
+<<<<<<< HEAD
   tags: []
+=======
+  tags:
+  - Enemy
+>>>>>>> origin/Branch_2_Cheongyanseng
   layers:
   - Default
   - TransparentFX
@@ -14,10 +19,14 @@ TagManager:
   - 
   - 
 <<<<<<< HEAD
+<<<<<<< HEAD
   - 
 =======
   - PostProcessing
 >>>>>>> Branch_1_Ngtingwei
+=======
+  - 
+>>>>>>> origin/Branch_2_Cheongyanseng
   - 
   - 
   - 

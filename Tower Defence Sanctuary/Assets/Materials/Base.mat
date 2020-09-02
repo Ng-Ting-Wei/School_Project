@@ -73,5 +73,9 @@ Material:
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
+<<<<<<< HEAD
     - _Color: {r: 0.3711022, g: 0.9056604, b: 0.07262372, a: 1}
+=======
+    - _Color: {r: 0.41568074, g: 0.9433962, b: 0.10234961, a: 1}
+>>>>>>> origin/Branch_2_Cheongyanseng
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}

@@ -4,6 +4,7 @@
 PresetManager:
   m_ObjectHideFlags: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_DefaultList: []
 =======
   m_DefaultList:
@@ -29,3 +30,6 @@ PresetManager:
     - m_Preset: {fileID: 2655988077585873504, guid: 7a99f8aa944efe94cb9bd74562b7d5f9,
         type: 2}
 >>>>>>> Branch_1_Ngtingwei
+=======
+  m_DefaultList: []
+>>>>>>> origin/Branch_2_Cheongyanseng

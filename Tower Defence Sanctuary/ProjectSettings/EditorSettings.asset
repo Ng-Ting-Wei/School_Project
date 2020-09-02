@@ -5,18 +5,24 @@ EditorSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 7
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> origin/Branch_2_Cheongyanseng
   m_ExternalVersionControlSupport: Hidden Meta Files
   m_SerializationMode: 2
   m_LineEndingsForNewScripts: 2
   m_DefaultBehaviorMode: 0
   m_PrefabRegularEnvironment: {fileID: 0}
   m_PrefabUIEnvironment: {fileID: 0}
+<<<<<<< HEAD
 =======
   m_ExternalVersionControlSupport: Visible Meta Files
   m_SerializationMode: 2
   m_LineEndingsForNewScripts: 2
   m_DefaultBehaviorMode: 0
 >>>>>>> Branch_1_Ngtingwei
+=======
+>>>>>>> origin/Branch_2_Cheongyanseng
   m_SpritePackerMode: 0
   m_SpritePackerPaddingPower: 1
   m_EtcTextureCompressorBehavior: 1
@@ -24,11 +30,15 @@ EditorSettings:
   m_EtcTextureNormalCompressor: 2
   m_EtcTextureBestCompressor: 4
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> origin/Branch_2_Cheongyanseng
   m_ProjectGenerationIncludedExtensions: txt;xml;fnt;cd;asmdef;rsp
   m_ProjectGenerationRootNamespace: 
   m_CollabEditorSettings:
     inProgressEnabled: 1
   m_EnableTextureStreamingInPlayMode: 1
+<<<<<<< HEAD
 =======
   m_ProjectGenerationIncludedExtensions: txt;xml;fnt;cd
   m_ProjectGenerationRootNamespace: 
@@ -36,3 +46,5 @@ EditorSettings:
   m_CollabEditorSettings:
     inProgressEnabled: 1
 >>>>>>> Branch_1_Ngtingwei
+=======
+>>>>>>> origin/Branch_2_Cheongyanseng

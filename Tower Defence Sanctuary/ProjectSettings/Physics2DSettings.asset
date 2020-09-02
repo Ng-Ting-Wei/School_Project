@@ -20,6 +20,9 @@ Physics2DSettings:
   m_AngularSleepTolerance: 2
   m_DefaultContactOffset: 0.01
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> origin/Branch_2_Cheongyanseng
   m_JobOptions:
     serializedVersion: 2
     useMultithreading: 0
@@ -44,6 +47,7 @@ Physics2DSettings:
   m_QueriesStartInColliders: 1
   m_CallbacksOnDisable: 1
   m_ReuseCollisionCallbacks: 0
+<<<<<<< HEAD
 =======
   m_AutoSimulation: 1
   m_QueriesHitTriggers: 1
@@ -52,6 +56,8 @@ Physics2DSettings:
   m_CallbacksOnDisable: 1
   m_ReuseCollisionCallbacks: 1
 >>>>>>> Branch_1_Ngtingwei
+=======
+>>>>>>> origin/Branch_2_Cheongyanseng
   m_AutoSyncTransforms: 0
   m_AlwaysShowColliders: 0
   m_ShowColliderSleep: 1
