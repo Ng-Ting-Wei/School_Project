@@ -61,6 +61,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\mainmenuScript.cs" />
+    <Compile Include="Assets\Scripts\PauseOption.cs" />
+    <Compile Include="Assets\Scripts\PlayerBase.cs" />
+    <Compile Include="Assets\Scripts\Playerhealthbar.cs" />
+    <Compile Include="Assets\Scripts\PlayerMovement.cs" />
+    <Compile Include="Assets\Scripts\PlayerUI.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:/Users/pmast/Documents/GitHub/School_Project/Tower Defence Sanctuary/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>

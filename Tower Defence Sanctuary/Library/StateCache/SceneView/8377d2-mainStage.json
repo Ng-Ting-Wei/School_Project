@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 ﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":false,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":false,"pivot":{"x":390.28558349609377,"y":132.79664611816407,"z":29.123960494995118},"rotation":{"x":-0.1940707415342331,"y":0.0005858420045115054,"z":-0.00011593857925618067,"w":-0.9809873700141907},"size":28.027986526489259,"orthographic":false}
+=======
+﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":false,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":true,"pivot":{"x":236.95883178710938,"y":61.35513687133789,"z":1.6875},"rotation":{"x":0.0,"y":0.0,"z":0.0,"w":-1.0},"size":252.79049682617188,"orthographic":true}
+>>>>>>> Branch_1_Ngtingwei
